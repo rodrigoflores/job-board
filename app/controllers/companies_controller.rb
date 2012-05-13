@@ -1,5 +1,5 @@
 class CompaniesController < ApplicationController
-  before_filter :redirect_if_logged_in
+  before_filter :redirect_if_logged
 
   def new
     @company = Company.new
