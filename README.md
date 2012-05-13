@@ -1,12 +1,12 @@
-= Job Board
+# Job Board #
 
 Aplicação desenvolvida ao vivo no Secot - Semana de Computação e Tecnologia da UFSCAR - Sorocaba
 
-== Dependências
+## Dependências ##
 
 * (Bundler)[http://gembundler.com/]
 
-== Para rodar
+## Para rodar ##
 
 Instalar as gems necessárias
 
@@ -32,4 +32,3 @@ Iniciar o servidor:
 ```ruby
 bundle exec rails server
 ```
-
