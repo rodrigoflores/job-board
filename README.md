@@ -4,7 +4,7 @@ Aplicação desenvolvida ao vivo no Secot - Semana de Computação e Tecnologia 
 
 ## Dependências ##
 
-* (Bundler)[http://gembundler.com/]
+* [Bundler](http://gembundler.com/)
 
 ## Para rodar ##
 
