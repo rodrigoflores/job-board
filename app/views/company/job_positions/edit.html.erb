@@ -1,0 +1,23 @@
+<h1>Edit job position</h1>
+
+<%= form_for @job_position do |f| %>
+  <%= f.error_messages %>
+  <p>
+    <%= f.label :position, "Cargo" %>
+    <%= f.text_field :position %>
+  </p>
+
+  <p>
+    <%= f.label :description, "Descrição" %>
+    <%= f.text_area :description %>
+  </p>
+
+  <p>
+    <%= f.label :start_date, "Data de início" %>
+    <%= f.date_select :start_date %>
+  </p>
+
+  <p>
+    <%= f.button "Update job position" %>
+  </p>
+<% end %>

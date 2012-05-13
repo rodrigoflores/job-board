@@ -1,0 +1,20 @@
+<p>
+  <%= @job_position.position %>
+</p>
+
+<p>
+  <%= @job_position.description %>
+</p>
+
+<p>
+  <%= @job_position.start_date %>
+</p>
+
+<p>
+  E-mail para envio do currículo:
+  <%= @job_position.company.email %>
+</p>
+
+<p>
+  <%= link_to "Voltar para vagas", job_positions_path %>
+</p>

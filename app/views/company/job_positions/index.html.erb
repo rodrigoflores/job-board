@@ -1,0 +1,23 @@
+<% @job_positions.each do |job_position| %>
+  <p>
+    Cargo: <%= job_position.position %>
+  </p>
+
+  <p>
+    Descrição: <%= job_position.description %>
+  </p>
+
+  <p>
+    Data de início: <%= job_position.start_date %>
+  </p>
+
+  <p>
+    <%= link_to "Edit this job position", edit_company_job_position_path(job_position.id)%>
+  </p>
+
+  <p>
+    <%= link_to "Delete this job position", company_job_position_path(job_position.id), :method => :delete %>
+  </p>
+<% end %>
+
+<%= link_to "New job position", new_company_job_position_path %>

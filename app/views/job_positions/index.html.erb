@@ -1,0 +1,9 @@
+<ul>
+  <% @job_positions.each do |job_position| %>
+    <li>
+      <%= link_to job_position_path(job_position.id) do %>
+        <%= job_position.position %> at <%= job_position.company.name %>
+      <% end%>
+    </li>
+  <% end %>
+</ul>
